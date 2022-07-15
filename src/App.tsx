@@ -6,7 +6,10 @@ const App = () => {
   }
   return (
     <div className="App">
-      <ReCAPTCHA sitekey="YOUR-SITE-KEY" onChange={onChange} />
+      <ReCAPTCHA
+        sitekey="https://www.google.com/recaptcha/api."
+        onChange={onChange}
+      />
     </div>
   );
 };
